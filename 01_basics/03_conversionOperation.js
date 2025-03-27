@@ -62,3 +62,27 @@ num1 = num2 = num3 = 2 + 2
 let gameCounter = 100
 ++gameCounter;
 console.log(gameCounter);
+
+// ++++++++++++++++++memory+++++++++++++++++++++
+
+//  js use 2 type of memory  
+
+// Stack (primitive),Heap(Non-premitive)
+
+let Name="Ram"
+let anotherName=Name
+anotherName="shyam"
+
+console.log(Name);
+console.log(anotherName);
+
+let userOne={
+    email: "d@gmail.com",
+    upi:"user@ylb"
+}
+
+let userTwo=userOne
+
+userTwo.email="A@gmail.com"
+console.log(userOne.email);
+console.log(userTwo.email);
